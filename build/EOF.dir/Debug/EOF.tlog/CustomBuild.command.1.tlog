@@ -1,0 +1,10 @@
+^C:\USERS\CONTA\DOCUMENTS\DEV\EOF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/conta/Documents/Dev/EOF -BC:/Users/conta/Documents/Dev/EOF/build --check-stamp-file C:/Users/conta/Documents/Dev/EOF/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

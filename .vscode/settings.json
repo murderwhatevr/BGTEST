@@ -1,0 +1,8 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "C:/Users/conta/Documents/Dev/EOF",
+    "files.associations": {
+        "fstream": "cpp",
+        "iosfwd": "cpp"
+    }
+}
